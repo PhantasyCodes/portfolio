@@ -9,6 +9,12 @@
     letter-spacing: 2vw;
     color: rgba(255, 255, 255, 0.3);
     animation: marquee 20s linear infinite;
+    transition: 0.3s;
+    width: 110vw;
+}
+
+.slider h1:hover {
+    letter-spacing: 3vw;
 }
 
 @keyframes marquee {
@@ -18,4 +24,37 @@
     100% {
         transform: translate(-100%, 0);
     }
+}
+
+.details-text {
+    position: absolute;
+    right: 5vw;
+    max-width: 35vw;
+}
+
+.details-text h2 {
+    font-size: 4vw;
+    margin-top: 5vh;
+    font-weight: 300;
+}
+
+.details-text h1 {
+    font-weight: 300;
+}
+
+.details-text p {
+    color: white;
+    margin-top: 2vh;
+    font-size: 1.9vw;
+    font-weight: 300;
+}
+
+.images {
+    margin-top: 5vh;
+    display: flex;
+}
+
+.images img {
+    max-width: 3vw;
+    margin-right: 1vw;
 }

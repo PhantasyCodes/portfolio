@@ -24,7 +24,7 @@ const Hero = () => {
             <h1>WEB DEVELOPER - GRAPHIC DESIGNER - UX/UI DESIGNER</h1>
         </div>
         <div className="text">
-            <h2>i make <span className='green'>beautiful</span> and <span className='red'>interactive</span> interfaces for great businesses. Because every <span className='blue'>great business</span> needs <span className='orange'>great design</span></h2>
+            <h2>i make <span className='green'>beautiful</span> and <span className='red'>interactive</span> websites for great businesses. Because every <span className='blue'>great business</span> needs <span className='orange'>great design</span></h2>
         </div>
         <OwlCarousel
         className='owl-theme'
