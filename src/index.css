@@ -1,10 +1,55 @@
-body {
+@font-face {
+  font-family: Baron Neue;
+  src: url(/public/fonts/Baron\ Neue.otf);
+}
+
+@font-face {
+  font-family: Metropolis;
+  src: url(/public/fonts/Metropolis-Regular.otf);
+}
+
+@font-face {
+  font-family: Metropolis Semi;
+  src: url(/public/fonts/Metropolis-SemiBold.otf);
+}
+
+@font-face {
+  font-family: Metropolis Bold;
+  src: url(/public/fonts/Metropolis-Bold.otf);
+}
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+}
+
+body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #000;
+}
+
+h1 {
+  font-family: Baron Neue;
+  color: white;
+}
+
+h2 {
+  font-family: Metropolis;
+  color: white;
+}
+
+p {
+  font-family: Metropolis;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 code {

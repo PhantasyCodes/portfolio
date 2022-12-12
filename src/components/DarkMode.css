@@ -1,0 +1,12 @@
+.darkmode {
+    border: 2px solid white;
+    border-radius: 30px;
+    height: 5vh;
+    width: 5vw;
+    margin: 0px auto;
+    display: flex;
+}
+
+.sun {
+    background-color: white;
+}
