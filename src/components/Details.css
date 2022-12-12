@@ -1,0 +1,21 @@
+.details {
+    padding-top: 20vh;
+    height: 100vh;
+}
+
+.slider h1 {
+    font-size: 8vw;
+    font-weight: 300;
+    letter-spacing: 2vw;
+    color: rgba(255, 255, 255, 0.3);
+    animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(100%, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}

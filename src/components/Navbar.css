@@ -3,11 +3,14 @@
     height: 10vh;
     background-color: #DBFF00;
     border-radius: 50px;
-    margin: 5vh auto;
     display: flex;
     align-items: center;
     padding: 0 30px;
     justify-content: space-between;
+    position: fixed;
+    left: 5vw;
+    top: 5vh;
+    z-index: 99;
 }
 
 .logo h1 {
