@@ -1,3 +1,87 @@
 .portfolio {
     height: 100vh;
 }
+
+.card {
+    height: 100%;
+    width: 90vw;
+    display: flex !important;
+    margin-left: 5vw;
+}
+
+.card-left {
+    height: 80vh;
+    width: 30vw;
+    background-color: #DBFF00;
+    padding-top: 5vh;
+    padding-left: 2vw;
+    border-radius: 50px;
+}
+
+.card-left h1 {
+    color: black;
+    font-size: 2.5vw;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 5vh;
+}
+
+.card-left h1::after {
+    position: absolute;
+    content: '';
+    height: 4px;
+    bottom: -1.5vh;
+    background-color: black;
+	left: 0;
+    width: 40%;
+}
+
+.card-left p {
+    font-size: 1.3vw;
+    font-family: Metropolis;
+    margin-bottom: 1.2vh;
+}
+
+.card-left p span {
+    font-family: Metropolis Semi;
+}
+
+.card-left a {
+    text-decoration: underline;
+    color: black;
+    font-family: Metropolis;
+    font-size: 1.2vw;
+}
+
+.card-details {
+    margin-bottom: 15vh;
+}
+
+.card-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+}
+
+.card-right img {
+    max-width: 50vw;
+    /* margin-left: 5vw; */
+}
+
+.prev-arrow {
+    position: absolute;
+    top: 60vh !important;
+    left: 15vh !important;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.next-arrow {
+    position: absolute;
+    top: 60vh !important;
+    left: 25vh !important;
+    z-index: 1;
+    cursor: pointer;
+}
+

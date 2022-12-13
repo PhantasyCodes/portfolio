@@ -44,6 +44,7 @@
     background-color: gray;
     width: 18vw;
     height: 40vh;
+    box-shadow: #DBFF00 2vw 4vh;
 }
 
 .owl-stage-outer {

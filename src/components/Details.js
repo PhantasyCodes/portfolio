@@ -3,6 +3,7 @@ import './Details.css'
 
 import linkedin from '../assets/images/linkedin.png'
 import github from '../assets/images/github.png'
+import photo from '../assets/images/david.png'
 
 const Details = () => {
   return (
@@ -18,6 +19,9 @@ const Details = () => {
           <a href="https://www.linkedin.com/in/davidkingdeveloper/"><img src={linkedin} alt="linkedin" /></a>
           <a href="https://github.com/PhantasyCodes"><img src={github} alt="github" /></a>
         </div>
+      </div>
+      <div className="photo">
+        <img src={photo} alt="me" />
       </div>
     </div>
   )

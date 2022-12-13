@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "../components/Contact";
 import DarkMode from "../components/DarkMode";
 import Details from "../components/Details";
 import Hero from "../components/Hero";
@@ -13,6 +14,7 @@ const Home = () => {
             <Hero />
             <Details />
             <Portfolio />
+            <Contact />
         </div>
     )
 }

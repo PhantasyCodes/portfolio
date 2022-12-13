@@ -58,3 +58,14 @@
     max-width: 3vw;
     margin-right: 1vw;
 }
+
+.photo {
+    position: absolute;
+    left: 15vw;
+    top: 100vh;
+    z-index: -1;
+}
+
+.photo img {
+    max-height: 90vh;
+}

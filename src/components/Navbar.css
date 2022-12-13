@@ -11,6 +11,7 @@
     left: 5vw;
     top: 5vh;
     z-index: 99;
+    border: 2px solid black;
 }
 
 .logo h1 {
