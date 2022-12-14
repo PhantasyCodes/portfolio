@@ -86,7 +86,7 @@
 .prev-arrow {
     position: absolute;
     top: 60vh !important;
-    left: 15vh !important;
+    left: 15vh;
     z-index: 1;
     cursor: pointer;
 }
@@ -94,8 +94,74 @@
 .next-arrow {
     position: absolute;
     top: 60vh !important;
-    left: 25vh !important;
+    left: 25vh;
     z-index: 1;
     cursor: pointer;
 }
 
+@media only screen and (max-width: 800px) {
+    .portfolio {
+        height: 70vh;
+    }
+
+    .card {
+        flex-direction: column;
+        margin-left: 0vw;
+    }
+
+    .card-left {
+        height: 30vh;
+        width: 100vw;
+        background-color: #DBFF00;
+        padding-top: 5vh;
+        padding-left: 2vw;
+        border-radius: 0px;
+        transition: 0.3s;
+        padding-left: 5vw;
+    }
+
+    .card-left h1 {
+        color: black;
+        font-size: 8vw;
+        font-weight: 300;
+        position: relative;
+        margin-bottom: 5vh;
+    }
+
+    .card-left p {
+        font-size: 4vw;
+        font-family: Metropolis;
+        margin-bottom: 1.2vh;
+    }
+
+    .card-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 30vh;
+    }
+
+    .card-right img {
+        max-width: 70vw;
+        /* margin-left: 5vw; */
+    }
+
+    .prev-arrow {
+        top: 24vh !important;
+        left: 5vw;
+    }
+
+    .prev-arrow img {
+        max-width: 10vw;
+    }
+    
+    .next-arrow {
+        top: 24vh !important;
+        left: 20vw;
+    }
+
+    .next-arrow img {
+        max-width: 10vw;
+    }
+ }

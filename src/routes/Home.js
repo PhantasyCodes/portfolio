@@ -8,6 +8,9 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Portfolio from "../components/Portfolio";
 
+import photo from '../assets/images/david.png'
+import photoLight from '../assets/images/david-light.png'
+
 import './Home.css'
 
 export const ThemeContext = createContext(null);
@@ -37,17 +40,15 @@ const Home = () => {
 
     const [theme, setTheme] = useState("dark");
     const toggleTheme = () => {
+        setDavidPhoto((curr) => (curr === photoLight ? photo : photoLight));
         setTheme((curr) => (curr === "light" ? "dark" : "light"));
     } 
+
+    const [davidPhoto, setDavidPhoto] = useState(photo);
 
     return (
         <ThemeContext.Provider value={{theme, toggleTheme}}>
             <div id={theme}>
-                <Navbar /> 
-                <Hero />
-                <Details />
-                <Portfolio />
-                <Contact />
                 <motion.div 
                     className="cursor"  
                     style={{
@@ -58,12 +59,18 @@ const Home = () => {
                         width: cursorSize
                     }}
                 />
+                <Navbar /> 
+                <Hero />
+                <Details photo={davidPhoto}/>
+                <Portfolio />
+                <Contact />
                 <div className="switch">
                     <ReactSwitch 
                     className="darkmoder"
                     onChange={toggleTheme} 
                     checked={theme === "dark"} 
-                    onColor={"#2e2e2e"}/>
+                    onColor={"#2e2e2e"}
+                    onHandleColor={"#DBFF00"}/>
                 </div>
             </div>
         </ThemeContext.Provider>

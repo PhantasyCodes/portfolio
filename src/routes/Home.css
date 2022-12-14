@@ -33,3 +33,9 @@
     /* margin-left: -2.5vw; */
     /* padding-top: 20vh; */
 }
+
+@media only screen and (max-width: 800px) {
+    .switch {
+      top: 15vh;
+    }
+}

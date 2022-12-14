@@ -24,9 +24,7 @@ const Contact = () => {
         <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
                 <input placeholder="Name" type="text" name="user_name" />
-                <label>Email</label>
                 <input placeholder="Email" type="email" name="user_email" />
-                <label>Message</label>
                 <textarea placeholder="Message" name="message" rows="1" />
                 <input type="submit" value="SEND" />
             </form>

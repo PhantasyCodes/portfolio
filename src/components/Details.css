@@ -11,6 +11,7 @@
     animation: marquee 20s linear infinite;
     transition: 0.3s;
     width: 110vw;
+    z-index: 50;
 }
 
 #light .slider h1 {
@@ -75,9 +76,39 @@
     position: absolute;
     left: 15vw;
     top: 100vh;
-    z-index: -1;
+    z-index: 0 !important;
 }
 
 .photo img {
     max-height: 90vh;
+    z-index: 0 !important;
+}
+
+@media only screen and (max-width: 800px) {
+    .details {
+        padding-top: 10vh;
+    }
+
+    .photo {
+        left: 0vw;
+    }
+
+    .photo img {
+        max-height: 70vh;
+    }
+
+    .details-text {
+        max-width: 70vw;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding-left: 10vw;
+        margin-top: 10vh;
+    }
+
+    .details-text h2 {
+        font-size: 8vw;
+    }
+
+    .details-text p {
+        font-size: 5vw;
+    }
 }

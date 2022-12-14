@@ -123,3 +123,30 @@
     bottom: 2vh;
     left: 2vw;
 }
+
+@media only screen and (max-width: 800px) {
+    .hero {
+        padding-top: 25vh;
+    }
+
+    .heading h1 {
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    .text {
+        margin-top: 7vh;
+        margin-left: 5vw;
+        max-width: 75vw;
+    }
+
+    .text h2 {
+        font-size: 9vw;
+        font-weight: 300;
+        line-height: 6vh;
+    }
+
+    .owl-carousel {
+        display: none !important;
+    }
+}
