@@ -1,10 +1,15 @@
 .hero {
-    margin: 5vh 5vw;
+    margin: 0 5vw;
+    padding-top: 30vh;
 }
 
 .heading h1 {
     font-weight: 300;
     font-size: 2.3vw;
+}
+
+#light .heading h1 {
+    color: black;
 }
 
 .text {
@@ -17,6 +22,10 @@
     font-size: 4vw;
     font-weight: 300;
     line-height: 8.5vh;
+}
+
+#light .text h2 {
+    color: black;
 }
 
 .green {
@@ -44,7 +53,6 @@
     background-color: gray;
     width: 18vw;
     height: 40vh;
-    box-shadow: #DBFF00 2vw 4vh;
 }
 
 .owl-stage-outer {

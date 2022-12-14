@@ -16,6 +16,15 @@
     padding-top: 5vh;
     padding-left: 2vw;
     border-radius: 50px;
+    transition: 0.3s;
+}
+
+#light .card-left {
+    border: 2px solid black;
+}
+
+#light .card-left {
+    border-radius: 0;
 }
 
 .card-left h1 {
@@ -62,6 +71,11 @@
     align-items: center;
     justify-content: center;
     width: 60vw;
+}
+
+#light .card-right {
+    border: 2px solid black;
+    border-left: none;
 }
 
 .card-right img {

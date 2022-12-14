@@ -13,6 +13,10 @@
     width: 110vw;
 }
 
+#light .slider h1 {
+    color: black;
+}
+
 .slider h1:hover {
     letter-spacing: 3vw;
 }
@@ -38,6 +42,10 @@
     font-weight: 300;
 }
 
+#light .details-text h2 {
+    color: black;
+}
+
 .details-text h1 {
     font-weight: 300;
 }
@@ -47,6 +55,10 @@
     margin-top: 2vh;
     font-size: 1.9vw;
     font-weight: 300;
+}
+
+#light .details-text p {
+    color: black;
 }
 
 .images {

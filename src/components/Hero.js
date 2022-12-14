@@ -4,20 +4,19 @@ import OwlCarousel from 'react-owl-carousel'
 import 'owl.carousel/dist/assets/owl.carousel.min.css'
 import 'owl.carousel/dist/assets/owl.theme.default.css'
 
-// import nextIcon from '../assets/images/right.png'
-// import prevIcon from '../assets/images/left.png'
-
 import './Hero.css'
 
-const options = {
-    items: 1,
-    nav: false,
-    loop: true,
-    dots: true,
-    autoplay: true,
-};
 
-const Hero = () => {
+const Hero = (props) => {
+    
+    const options = {
+        items: 1,
+        nav: false,
+        loop: true,
+        dots: true,
+        autoplay: true,
+    };
+
   return (
     <div className='hero'>
         <div className="heading">
