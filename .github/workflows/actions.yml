@@ -27,5 +27,7 @@ jobs:
         server: ${{ secrets.ftp_server }}
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
+        dangerous-clean-slate: true
+        local-dir: ./build/
 env: 
   CI: false
