@@ -106,12 +106,14 @@
 
     .card {
         flex-direction: column;
+        align-items: center;
         margin-left: 0vw;
+        /* max-width: 90vw; */
     }
 
     .card-left {
-        height: 30vh;
-        width: 100vw;
+        height: 35vh;
+        width: 80vw;
         background-color: #DBFF00;
         padding-top: 5vh;
         padding-left: 2vw;
@@ -148,8 +150,8 @@
     }
 
     .prev-arrow {
-        top: 24vh !important;
-        left: 5vw;
+        top: 27vh !important;
+        left: 12vw;
     }
 
     .prev-arrow img {
@@ -157,8 +159,8 @@
     }
     
     .next-arrow {
-        top: 24vh !important;
-        left: 20vw;
+        top: 27vh !important;
+        left: 29vw;
     }
 
     .next-arrow img {
