@@ -39,7 +39,7 @@ function SampleNextArrow(props) {
 
 const Portfolio = () => {
   return (
-    <div className='portfolio'>
+    <div id="projects" className='portfolio'>
         <Slider {...settings}>
             <div className='card'>
                 <div className="card-left">
