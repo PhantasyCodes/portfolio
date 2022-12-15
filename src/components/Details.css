@@ -111,4 +111,9 @@
     .details-text p {
         font-size: 5vw;
     }
+
+    .images img {
+        max-width: 10vw;
+        margin-right: 1vw;
+    }
 }
