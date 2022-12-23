@@ -39,3 +39,9 @@
       top: 13vh;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .cursor {
+      display: none;
+    }
+}
