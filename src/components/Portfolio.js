@@ -26,16 +26,16 @@ function SampleNextArrow(props) {
             <img src={arrowRight} alt="right" />
         </div>
     );
-  }
+}
   
-  function SamplePrevArrow(props) {
+function SamplePrevArrow(props) {
     const { onClick } = props;
     return (
         <div className='prev-arrow' onClick={onClick}>
             <img src={arrowLeft} alt="left" />
         </div>
     );
-  }
+}
 
 const Portfolio = () => {
   return (
